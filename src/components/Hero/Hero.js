@@ -8,13 +8,14 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hi, i'm Daniel and <br />
+        welcome to <br />
+        my personal portfolio
       </SectionTitle>
       <SectionText>
         A Javascript enthusiast, father of a beautiful girl, and eternal learner.
       </SectionText>
-      <Button onClick={() => window.location = 'https:google.com'}>Learn More</Button>
+      <Button onClick={() => window.open('https://www.linkedin.com/in/daniel-alexandro-lingan-caballero/', '_blank')}>Learn More</Button>
     </LeftSection>
   </Section>
 );

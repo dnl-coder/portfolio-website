@@ -16,7 +16,7 @@ const Projects = () => (
             <HeaderThree title='true'>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo>{description}</CardInfo>
+          <CardInfo>{description}</CardInfo><br />
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
@@ -26,8 +26,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={visit}>Source</ExternalLinks>
+            <ExternalLinks href={source} target="_blank">Code</ExternalLinks>
+            <ExternalLinks href={visit} target="_blank">Source</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

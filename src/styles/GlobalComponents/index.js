@@ -148,7 +148,7 @@ export const SecondaryBtn = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.md}{
-    margin-top: 24px; 
+    margin-top: 24px;
     margin-bottom: 64px;
     padding: 16px 24px;
     width: fit-content;

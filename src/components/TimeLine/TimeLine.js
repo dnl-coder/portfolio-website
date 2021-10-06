@@ -43,6 +43,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         A Javascript enthusiast, father of a beautiful girl, and eternal learner.
